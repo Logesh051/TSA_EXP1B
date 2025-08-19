@@ -10,6 +10,7 @@ To perform regular differncing,seasonal adjustment and log transformatio on inte
 4. Plot the data according to need, before and after regular differncing,seasonal adjustment,log transformation.
 5. Display the overall results.
 ### PROGRAM:
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +96,7 @@ plt.show()
 # Final overall trend
 ts['Price'].plot(kind='line', figsize=(12,6), title="Flight Price Trend (Daily Average)")
 plt.show()
-
+```
 
 ### OUTPUT:
 <img width="1319" height="215" alt="Screenshot 2025-08-19 132839" src="https://github.com/user-attachments/assets/6a1777ef-cb1a-4b89-900e-be778702b01d" />
